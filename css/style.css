@@ -9,6 +9,10 @@ main {
   margin: 0 auto;
 }
 
+h1 {
+  margin-top: 2em;
+}
+
 a {
   position: relative;
   padding-bottom: 0.1em;
