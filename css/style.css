@@ -7,10 +7,19 @@ body {
 main {
   max-width: 1100px;
   margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 h1 {
   margin-top: 2em;
+}
+
+@media only screen and (max-width: 640px) {
+  h1 {
+    margin-top: 0.5em;
+  }
 }
 
 a {
@@ -37,6 +46,12 @@ a:active {
   vertical-align: top;
   font-size: 1rem;
   margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 640px) {
+  .projects > div {
+    width: 100%;
+  }
 }
 
 .projects h2 {
