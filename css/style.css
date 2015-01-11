@@ -1,0 +1,73 @@
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+a {
+  position: relative;
+  padding-bottom: 0.1em;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 2px solid #000;
+}
+
+a:focus,
+a:active {
+  top: 1px;
+}
+
+.projects {
+  margin-top: 50px;
+  font-size: 0;
+}
+
+.projects > div {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+
+.projects img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid #efefef;
+}
+
+.projects a {
+  border-bottom-width: 0;
+}
+
+.projects a:focus,
+.projects a:active {
+  top: 0;
+}
+
+.projects .left {
+  display: inline-block;
+  width: 32%;
+  margin-right: 4%;
+  vertical-align: top;
+}
+
+.projects .right {
+  display: inline-block;
+  vertical-align: top;
+  width: 62%;
+}
+
+.iframe {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.iframe iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
