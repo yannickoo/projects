@@ -62,6 +62,12 @@ a:active {
   }
 }
 
+@media only screen and (max-width: 1100px) and (orientation: landscape) {
+  .projects > div {
+    margin-bottom: 20px;
+  }
+}
+
 .projects h2 {
   margin-top: 0;
 }
