@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
   for (var i = 0; i < projects.length; i++) {
     var project = projects[i];
+    
+    project.style.cursor = 'pointer';
 
     project.addEventListener('click', function() {
       var link = this.querySelector('h2 a');
