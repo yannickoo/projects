@@ -31,9 +31,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     project.style.cursor = 'pointer';
 
-    project.addEventListener('click', function() {
-      var link = this.querySelector('h2 a');
-      location.href = link.getAttribute('href');
+    project.addEventListener('click', function(e) {
+      if (!(e.ctrlKey || e.metaKey)) {
+        var link = this.querySelector('h2 a');
+        location.href = link.getAttribute('href');
+      }
     });
   }
 });
