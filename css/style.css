@@ -140,3 +140,23 @@ a:active {
     height: 100px;
   }
 }
+
+.projects--simple {
+  margin-top: 50px;
+}
+
+.projects--simple > div {
+  margin-top: 1em;
+}
+
+.projects--simple > div:first-child {
+  margin-top: 0;
+}
+
+.projects--simple > div > * {
+  display: inline-block;
+}
+
+.projects--simple p {
+  margin-left: 0.5em;
+}
