@@ -56,8 +56,8 @@ a:active {
 }
 
 .projects .overlay,
-.projects > div:hover .left > a,
-.projects > div:hover .left > iframe {
+.projects > div[data-repo]:hover .left > a,
+.projects > div[data-repo]:hover .left > iframe {
   opacity: 0;
 }
 
