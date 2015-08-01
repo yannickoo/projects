@@ -113,6 +113,13 @@ a:active {
   border-radius: 50%;
 }
 
+.projects .background > a {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  padding-bottom: 0;
+}
+
 .projects .overlay {
   position: absolute;
   top: 0;
